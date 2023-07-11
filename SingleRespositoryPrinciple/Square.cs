@@ -1,4 +1,4 @@
-﻿namespace SOLID_principles.SingleResponsibilityPrinciple
+﻿namespace SingleResponsibilityPrinciple
 {
     public class Square: Shape
     {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace SOLID_principles.SingleResponsibilityPrinciple
+namespace OpenClosedPrinciple
 {
     public class SumCalculatorOutputter
     {

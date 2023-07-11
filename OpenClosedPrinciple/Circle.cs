@@ -1,4 +1,4 @@
-﻿namespace SOLID_principles.SingleResponsibilityPrinciple
+﻿namespace OpenClosedPrinciple
 {
     public class Circle: Shape
     {
@@ -7,6 +7,12 @@
         public Circle(int radius)
         {
             this.radius = radius;
+        }
+
+        // PI*radius^2
+        public double Area()
+        {
+            return Math.PI * Math.Pow(radius, 2);
         }
     }
 }

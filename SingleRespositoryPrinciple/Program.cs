@@ -1,6 +1,4 @@
-﻿using SOLID_principles.SingleResponsibilityPrinciple;
-
-namespace SOLID_principles
+﻿namespace SingleResponsibilityPrinciple
 {
     // A class should have one and only one reason to change, meaning
     // that a class should have only one job

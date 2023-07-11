@@ -1,12 +1,12 @@
-﻿namespace SOLID_principles.SingleResponsibilityPrinciple
+﻿namespace SingleResponsibilityPrinciple
 {
     public class AreaCalculator
     {
         private List<Shape> shapes;
 
-        public AreaCalculator(List<Shape> shapes) 
-        {  
-            this.shapes = shapes; 
+        public AreaCalculator(List<Shape> shapes)
+        {
+            this.shapes = shapes;
         }
 
         public double Sum()
